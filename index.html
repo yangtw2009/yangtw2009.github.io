@@ -3,14 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <link rel="icon" href="/path/to/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/path/to/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('http://taiwanfrp.ddns.net:8000/web/background.png');
+            background-size: cover;
+            color: #fff; /* 文字颜色，确保对比度 */
+        }
+
+        header {
+            background-color: #fff; /* 白色背景 */
+            color: #333; /* 文字颜色 */
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #ffbf00; /* 橙黃色 */
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover,
+        nav ul li a:focus {
+            color: #fff; /* 滑鼠懸停時的顏色 */
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: rgba(255, 255, 255, 0.7); /* 白色背景透明度为0.7 */
+        }
+
+        h2 {
+            color: #000; /* 黑色文字 */
+        }
+
+        /* Add more styles as needed */
+    </style>
+    <title>TAIWANFRP - Minecraft伺服器穿透服務</title>
 </head>
 <body>
 
-    <h1>早安美而美</h1>
+    <!-- Header -->
+    <header>
+        <h1>TAIWANFRP</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">首頁</a></li>
+                <li><a href="#services">服務介紹</a></li>
+                <li><a href="#pricing">價目表</a></li>
+                <li><a href="#status">伺服器狀態</a></li>
+                <li><a href="#contact">聯絡我們</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- 引用图片 -->
-    <img src="yang01.png" alt="Yang's Image">
+    <!-- Home Section -->
+    <section id="home" style="text-align: center; background-color: rgba(255, 255, 255, 0.7); /* 白色背景透明度为0.7 */">
+        <h2 style="color: #000;">歡迎使用 TAIWANFRP 內網穿透服務</h2>
+        <p style="color: #000;">通過frp提供的內網穿透台灣節點，幫助您輕鬆架設伺服器。</p>
+    </section>
 
-</body>
-</html>
+    <!-- Services Section -->
+    <section id="services" style="text-align: center; background-color: rgba(255, 255, 255, 0.7); /* 白色背景透明度为0.7 */">
+        <h2 style="color: #000;">服務特色</h2>
+        <p style="color: #000;">可以幫助家裡沒有公網的人架設伺服器，專門提供低延遲的Minecraft服務。</p>
+        <p style="color: #000;">額外的抗攻擊節點，當被攻擊時會自動切換，確保伺服器的穩定運行。</p>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" style="background-color: rgba(255, 255, 255, 0.7); /* 白色背景透明度为0.7 */">
+        <h2>價目表</h2>
+        <img src="http://taiwanfrp.ddns.net:8000/web/price.png" alt="價目表" style="max-width: 100%; height: auto;">
+    </section>
+
+    <!-- Status Section -->
+    <section id="status" style="background-color: rgba(255, 255, 255, 0.7); /* 白色背景透明度为0.7 */">
+        <h2>伺服器狀態</h2>
+        <iframe src="http://taifrpstatus.ddns.net:8001" width="100%" height="600"></iframe>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" style="background-color: rgba(255, 255, 255, 0.7); /* 白色背景透明度为0.7 */">
+        <h2>聯絡我們</h2>
+        <p style="color: #000;">電子郵件: <a href="mailto:kiwi071294@gmail.com" style="color: #000;">kiwi071294@gmail.com</a></p>
+        <p style="color: #000;">Discord 群組: <a href="https://discord.gg/83AFn92DbX" target="_blank" rel="noopener noreferrer" style="color: #000;" title="加入我們的Discord">加入我們的Discord</a></p>
+    </section>
